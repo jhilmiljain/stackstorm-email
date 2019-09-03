@@ -34,28 +34,6 @@ smtp_accounts:
         description: "Authenticate username and password with SMTP server to send email. Default True"
         type: "boolean"
         default: true
-imap_accounts:
-  description: "IMAP accounts"
-  type: "array"
-  required: true
-  items:
-    type: "object"
-    required: true
-    properties:
-      name:
-        description: "Name of the account"
-        type: "string"
-        secret: false
-        required: true
-      server:
-        description: "Email server name - e.g. imap.gmail.com"
-        type: "string"
-        secret: false
-        required: true
-      username:
-        description: "Mailbox username"
-        type: "string"
-        required: true
       password:
         description: "Mailbox password."
         type: "string"
