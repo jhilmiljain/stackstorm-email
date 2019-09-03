@@ -12,11 +12,6 @@ smtp_accounts:
         type: "string"
         secret: false
         required: true
-      server:
-        description: "Email server name - e.g. imap.gmail.com"
-        type: "string"
-        secret: false
-        required: true
       username:
         description: "Mailbox username"
         type: "string"
